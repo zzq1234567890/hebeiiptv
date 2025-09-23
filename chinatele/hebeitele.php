@@ -31,7 +31,7 @@ preg_match_all('/\|(.*?)",/i',$file_content,$um,PREG_SET_ORDER);//频道单播�
 //print_r($um);
 header("Content-Disposition: attachment; filename=hebeitele.m3u");
 //print "#EXTM3U  \r\n";
-print "#EXTM3U url-tvg=\"http://zzqwe.giize.com:12228/truth/opt/epg4gtv2.xml,http://epg.51zmt.top:8000/e.xml,http://zzqwe.giize.com:12228/truth/opt/epgmysuper.xml,http://zzqwe.giize.com:12228/truth/opt/epganywhere.xml,https://raw.githubusercontent.com/weareblahs/epg/master/rtmklik.xml,https://epg.112114.xyz/pp.xml,https://i.mjh.nz/au/Sydney/epg.xml.gz,https://i.mjh.nz/au/Perth/epg.xml.gz,https://i.mjh.nz/PlutoTV/us.xml.gz\" catchup=\"append\" catchup-source=\"?playseek=\${(b)yyyyMMddHHmmss\}-\${(e)yyyyMMddHHmmss}\" \r\n";
+print "#EXTM3U url-tvg=\"https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/epgziyong.xml.gz\" catchup=\"append\" catchup-source=\"?playseek=\${(b)yyyyMMddHHmmss\}-\${(e)yyyyMMddHHmmss}\" \r\n";
 
 for ( $i=1 ; $i<=count($uu) ; $i++ ) {
 
