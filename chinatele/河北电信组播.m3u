@@ -1,4 +1,4 @@
-﻿#EXTM3U url-tvg="http://zzqwe.giize.com:12228/epg.xml.gz" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss\}-${(e)yyyyMMddHHmmss}" 
+﻿#EXTM3U url-tvg="https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/epgziyong.xml.gz" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss\}-${(e)yyyyMMddHHmmss}" 
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="" group-title="hebeitele",CCTV-1
 igmp://239.254.200.45:8008
 #EXTINF:-1 tvg-id="CCTV-2" tvg-name="CCTV-2" tvg-logo="" group-title="hebeitele",CCTV-2
@@ -669,6 +669,7 @@ igmp://239.254.201.68:6000
 igmp://239.254.200.248:6000
 #EXTINF:-1 tvg-id="中式八球国际公开赛" tvg-name="中式八球国际公开赛" tvg-logo="" group-title="hebeitele",中式八球国际公开赛
 igmp://239.254.200.187:6000
+
 
 
 
